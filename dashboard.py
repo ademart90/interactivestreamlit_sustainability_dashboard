@@ -101,7 +101,7 @@ ax.set_title("Trends in SEI Components")
 ax.set_xlabel("Month")
 ax.set_ylabel("Value")
 ax.legend()
-st.pyplot(fig)
+st.plt(fig)
 
 # Plot Emissions per Unit
 st.image(Image.open("data/emission_per_unit.png"))
